@@ -12,16 +12,24 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        android:id="@+id/textView" />
+        android:text="ほのっぴ"
+        android:id="@+id/textView"
+        android:layout_marginTop="101dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#70b15e"
+        android:textStyle="bold"
+        android:textSize="30dp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="文字をかえる"
+        android:text="クリック！"
         android:id="@+id/button"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100dp"
-        android:onClick="changeText" />
+        android:onClick="changeText"
+        android:background="#416741"
+        android:textColor="#ffffff" />
 </RelativeLayout>
